@@ -66,7 +66,7 @@ The Building Blocks of Programming (22–37)
 ## Chapter 3
 Diving into Variables, Types, and Methods (38–64)
 
-- [ ] Update Assets/Scripts/LearningCurve.cs
+- [x] Update Assets/Scripts/LearningCurve.cs
 	- [x] Variables
 		- [x] Use access modifiers to make your variables explicitly `public` and `private`
 		- [x] Use `Debug.Log` and `Debug.LogFormat` to log your variables to the console
@@ -103,49 +103,49 @@ Control Flow and Collection Types (65–93)
 Working with Classes, Structs, and OOP (94–119)
 
 - Classes
-	- [ ] ✏️ Explain the difference between reference and value type variables: **??**
-	- [ ] Create Assets/Scripts/Character.cs
-		- [ ] Create a `Character` class
-		- [ ] Create `string` and `int` fields inside the Character class
-		- [ ] Create a `Character()` constructor and populate the above fields with its parameters
-	- [ ] Update Assets/Scripts/LearningCurve.cs
-		- [ ] Instantiate two new Character objects `hero` and `heroine` from the `Character` class
-		- [ ] Print out each characters data
-- [ ] Structs
-	- [ ] Update Assets/Scripts/Character.cs
-		- [ ] Add a `Weapon` struct
-		- [ ] Create `string` and `int` fields inside the Weapon struct
-		- [ ] Create a `Weapon()` constructor and populate the above fields with its parameters
-	- [ ] Update Assets/Scripts/LearningCurve.cs
-		- [ ] Instantiate two new Weapon objects `huntingBow` and `warBow` from the `Weapon` struct
-		- [ ] Print out each weapons' data
+	- [x] ✏️ Explain the difference between reference and value type variables: **??**
+	- [x] Create Assets/Scripts/Character.cs
+		- [x] Create a `Character` class
+		- [x] Create `string` and `int` fields inside the Character class
+		- [x] Create a `Character()` constructor and populate the above fields with its parameters
+	- [x] Update Assets/Scripts/LearningCurve.cs
+		- [x] Instantiate two new Character objects `hero` and `heroine` from the `Character` class
+		- [x] Print out each characters data
+- [x] Structs
+	- [x] Update Assets/Scripts/Character.cs
+		- [x] Add a `Weapon` struct
+		- [x] Create `string` and `int` fields inside the Weapon struct
+		- [x] Create a `Weapon()` constructor and populate the above fields with its parameters
+	- [x] Update Assets/Scripts/LearningCurve.cs
+		- [x] Instantiate two new Weapon objects `huntingBow` and `warBow` from the `Weapon` struct
+		- [x] Print out each weapons' data
 - Child classes
-	- [ ] Update Assets/Scripts/Character.cs
-		- [ ] Add a `Paladin` child class of `Character`
-		- [ ] Create a `Weapon` field inside the Paladin class
-		- [ ] Create a `Paladin()` constructor that calls the `base()` constructor. Populate the weapon in a parameter
-	- [ ] Update Assets/Scripts/LearningCurve.cs
-		- [ ] Instantiate a new Paladin object `knight` from the Paladin class
-		- [ ] Print the Paladin's name and weapon by overriding `PrintStatsInfo` in the base class
+	- [x] Update Assets/Scripts/Character.cs
+		- [x] Add a `Paladin` child class of `Character`
+		- [x] Create a `Weapon` field inside the Paladin class
+		- [x] Create a `Paladin()` constructor that calls the `base()` constructor. Populate the weapon in a parameter
+	- [x] Update Assets/Scripts/LearningCurve.cs
+		- [x] Instantiate a new Paladin object `knight` from the Paladin class
+		- [x] Print the Paladin's name and weapon by overriding `PrintStatsInfo` in the base class
 - Referencing objects
-	- [ ] Update Assets/Scripts/LearningCurve.cs
-		- [ ] Store a reference to the current game object's (Main Camera) `Transform` component using `GetComponent<>()`
-		- [ ] Log a reference to the `localPosition` field of the Main Camera's `Transform`
-		- [ ] Store a reference to the Light `GameObject` using `GameObject.Find()`
-		- [ ] Store a reference to the Light's `Transform` component using `GetComponent<>()`
-		- [ ] Log a reference to the `localPosition` field of the Light's `Transform`
+	- [x] Update Assets/Scripts/LearningCurve.cs
+		- [x] Store a reference to the current game object's (Main Camera) `Transform` component using `GetComponent<>()`
+		- [x] Log a reference to the `localPosition` field of the Main Camera's `Transform`
+		- [x] Store a reference to the Light `GameObject` using `GameObject.Find()`
+		- [x] Store a reference to the Light's `Transform` component using `GetComponent<>()`
+		- [x] Log a reference to the `localPosition` field of the Light's `Transform`
 
 
 
 ## Chapter 6
 Getting Your Hands Dirty with Unity (120–148)
 
-- [ ] Use primitive cubes and move, rotate, and scale tools to create a level or "world" in Unity
-- [ ] Add materials to primitives in Unity to change their color
-- [ ] Use parenting and "empty objects" in the Hierarchy tab to organize your project
-- [ ] Create, update, and use prefab game objects
-- [ ] Create timeline animations by recording keyframes and editing curves in Unity
-- [ ] Add and edit a particle system to a game object in Unity
+- [x] Use primitive cubes and move, rotate, and scale tools to create a level or "world" in Unity
+- [x] Add materials to primitives in Unity to change their color
+- [x] Use parenting and "empty objects" in the Hierarchy tab to organize your project
+- [x] Create, update, and use prefab game objects
+- [x] Create timeline animations by recording keyframes and editing curves in Unity
+- [x] Add and edit a particle system to a game object in Unity
 
 
 
@@ -153,19 +153,19 @@ Getting Your Hands Dirty with Unity (120–148)
 ## Chapter 7
 Movement, Camera Controls, and Collisions (149–175)
 
-- [ ] Movement
-	- [ ] Understand the difference between a "position vector" and a "direction vector"
-	- [ ] Capture keyboard input in C#
-	- [ ] Move and rotate a game object using `Translate()` and `Rotate()` with direction vectors
-- [ ] Camera Controls
-	- [ ] Add a script to the main camera that follows and looks at the player
-- [ ] Physics and Collisions
-	- [ ] Use `FixedUpdate()` to control game objects using Unity's physics engine
-	- [ ] Apply physics forces to a game object RigidBody using `MovePosition()`
-	- [ ] ✏️ Q: Will a [collision detection](https://docs.unity3d.com/Manual/CollidersOverview.html) occur when a Kinematic Rigidbody Collider touches a Static Collider? : **??**
-	- [ ] Use `OnCollisionEnter()` to check if a game object has run into another collider
-	- [ ] Use `Destroy()` to remove a game object from the scene
-	- [ ] Use `OnTriggerEnter()` and `OnTriggerExit()` to detect when two colliders start and stop touching
+- [x] Movement
+	- [x] Understand the difference between a "position vector" and a "direction vector"
+	- [x] Capture keyboard input in C#
+	- [x] Move and rotate a game object using `Translate()` and `Rotate()` with direction vectors
+- [x] Camera Controls
+	- [x] Add a script to the main camera that follows and looks at the player
+- [x] Physics and Collisions
+	- [x] Use `FixedUpdate()` to control game objects using Unity's physics engine
+	- [x] Apply physics forces to a game object RigidBody using `MovePosition()`
+	- [x] ✏️ Q: Will a [collision detection](https://docs.unity3d.com/Manual/CollidersOverview.html) occur when a Kinematic Rigidbody Collider touches a Static Collider? : **??**
+	- [x] Use `OnCollisionEnter()` to check if a game object has run into another collider
+	- [x] Use `Destroy()` to remove a game object from the scene
+	- [x] Use `OnTriggerEnter()` and `OnTriggerExit()` to detect when two colliders start and stop touching
 
 
 
